@@ -1,0 +1,333 @@
+@import 'fonts';
+@import 'vars';
+@import 'media-queries';
+
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+//NAV SECTIONS
+.nav{
+    background: $nav-bg;
+    padding: 2em 0;
+    position: fixed; 
+    width: 100%;
+}
+.nav-logo{
+    text-align: left;
+    color: $white-copy;
+    text-transform: uppercase;
+    font-size: 1.876em;
+    font-family: NotoBold;
+}
+.nav-e-logo{
+    color: $light-blue;
+}
+.nav-list{
+    padding: 0;
+    text-align: right;
+    float: right;
+}
+.nav-item{
+    font-family: NotoBold;
+    font-size: .875em;
+    list-style: none;
+    float: left;
+    padding: 0 0 0 1em;
+    border: 2em;    
+}
+.nav-link{
+    color: $white-copy;
+    text-decoration: none;
+    margin: 0;
+    padding: .3em .8em;
+}
+.nav-link:hover{
+    color: $light-blue;
+    padding: .2em .7em;
+    border: .1em solid $light-blue;
+}
+//HEADER SECTIONS
+.header-section{
+    background: url(../imgs/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 15em 0;
+}
+.header-tittle{
+    font-family: NotoLight;
+    color: $white-copy;
+    font-size: 2.626em;
+    text-transform: uppercase;
+    background: $nav-bg;
+    width: auto;
+}
+//SERVICES SECTIONS
+.services-section{
+    background: $light-blue;
+    color: $white-copy;
+    padding: 3em 0;
+}
+.services-tittle{
+    margin: 0;
+    font-family: NotoLight;
+    font-size: 1.876em;
+    text-align: left;
+    color: $white-copy;  
+}
+.icon-services{
+    display: block;
+    padding: 1em 0;
+    margin: 0;
+}
+.services-subtittle{
+    padding: 0;
+    margin: 0;
+    font-family: NotoRegular;
+    font-size: 1.5em;
+    text-align: left;
+    color: $white-copy; 
+}
+.left-line-white{
+    border-bottom: .1em solid $white-copy;
+}
+.text-services{
+    font-family: NotoRegular;
+    color: $white-copy;
+    text-align: left;
+    font-size: .75em;
+}
+//PORTFOLIO SECTIONS
+.portfolio-section{
+    background: $white-copy;
+    padding: 3em 0;
+}
+.portfolio-tittle{
+    margin: 0;
+    font-family: NotoLight;
+    font-size: 1.876em;
+    text-align: left;
+    color: $dark-bg;  
+}
+.left-line-black{
+    border-bottom: .1em solid $dark-bg;
+}
+.portfolio-list{
+    padding: 0;
+    text-align: right;
+    float: right;
+}
+.portfolio-item{
+    font-family: NotoBold;
+    font-size: .875em;
+    list-style: none;
+    float: left;
+    padding: 0 0 0 1em;
+    border: 2em;    
+}
+.portfolio-link{
+    color: $dark-bg;
+    text-decoration: none;
+    margin: 0;
+    padding: .3em .8em;
+}
+.portfolio-link:hover{
+    color: $light-blue;
+    padding: .2em .7em;
+    border: .1em solid $light-blue;
+}
+.portfolio-img{
+    width: 100%;
+    height: auto;
+    padding: 1em 0;
+}
+//DEFAULT SECTIONS
+.default-section{
+    background: $dark-bg;
+    color: $white-copy;
+    padding: 3em 0;
+}
+.default-tittle{
+    margin: 0;
+    font-family: NotoLight;
+    font-size: 1.876em;
+    text-align: left;
+    color: $white-copy;  
+}
+.text-default{
+    margin: 0;
+    padding: 2em 0 .5em;
+    font-family: NotoRegular;
+    color: $white-copy;
+    text-align: left;
+    font-size: .875em;
+}
+.visit-me-btn{
+    margin: 1em 0;
+    padding: 1em 3em;
+    font-family: NotoBold;
+    color: $visit-me-color;
+    font-size: .875em;
+    float: left;
+    text-decoration: none;
+    border: .2em solid $visit-me-color;
+}
+.visit-me-btn:hover{
+    color: $light-blue;
+    border: .2em solid $light-blue;
+}
+.video{
+    width: auto;
+    height: 100%;
+}
+//TWITTER SECTION
+.twitter-section{
+    background: $light-blue;
+    color: $white-copy;
+    padding: 3em 0;
+}
+.twitter-tittle{
+    margin: 0;
+    font-family: NotoLight;
+    font-size: 1.876em;
+    text-align: left;
+    color: $white-copy;  
+}
+.text-twitter{
+    margin: 0;
+    padding: 2em 0 .5em;
+    font-family: NotoLight;
+    color: $white-copy;
+    text-align: left;
+    font-size: 1.75em;
+}
+.twitter-bold{
+    font-family: NotoRegular;
+}
+//WHO SECTION
+.who-section{
+    background: url(../imgs/camera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5em 0;
+}
+.who-tittle{
+    margin: 0;
+    font-family: NotoLight;
+    font-size: 1.876em;
+    text-align: left;
+    color: $white-copy;  
+}
+.text-who{
+    margin: 0;
+    padding: 2em 0 .5em;
+    font-family: NotoRegular;
+    color: $white-copy;
+    text-align: left;
+    font-size: .875em;
+}
+.redes-btn{
+    border: .1em solid $white-copy;
+    padding: 1em;
+    margin: .5em;
+    float: left;
+}
+.redes-btn:hover{
+    border: .1em solid $light-blue;
+}
+//TESTIMONIALS SECTIONS
+.testimonials-section{
+    background: $white-copy;
+    padding: 3em 0;
+}
+.testimonials-tittle{
+    margin: 0;
+    font-family: NotoLight;
+    font-size: 1.876em;
+    text-align: left;
+    color: $dark-bg;  
+}
+.text-testimonials{
+    margin: 0;
+    padding: 2em 0 .5em;
+    font-family: NotoLight;
+    color: $dark-bg;
+    text-align: left;
+    font-size: 1.75em;
+}
+.testimonials-name{
+    color: $light-blue;
+    font-size: .875em;
+    font-family: NotoBold;
+    float: left;
+    padding: 1em 0;
+}
+//CONTACT SECTION
+.contact-section{
+    background: url(../imgs/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em 0;
+}
+.contact-tittle{
+    margin: 0;
+    font-family: NotoLight;
+    font-size: 1.876em;
+    text-align: left;
+    color: $white-copy;  
+}
+.contact-attributes{
+    margin: 0;
+    padding: 2em 0 .5em;
+    font-family: NotoBold;
+    color: $white-copy;
+    text-align: left;
+    font-size: .875em;
+}
+.contact-input{
+    font-family: NotoRegular;
+    color: $white-copy;
+    background: none;
+    float: left;
+    border: .2em solid $white-copy;
+    width: 100%;
+    font-size: 1.2em;
+    padding: .2em;
+}
+.contact-text{
+    font-family: NotoRegular;
+    color: $white-copy;
+    text-align: left;
+    font-size: .875em;
+    margin: 0;
+}
+.contact-submit{
+    margin: 1em 0;
+    font-family: NotoBold;
+    color: $white-copy;
+    background: $light-blue;
+    float: left;
+    border: none;
+    width: 100%;
+    font-size: .875em;
+    padding: .5em;
+}
+//FOOTER
+.footer-section{
+    background: $dark-bg;
+    padding: 3em 0;
+    color: $white-copy;
+    font-size: .75em;
+}
+.footer-options{
+    text-align: left;
+}
+.footer-link{
+    text-decoration: none;
+    color: $white-copy;
+}
+.footer-link:hover{
+    color: $light-blue;
+}

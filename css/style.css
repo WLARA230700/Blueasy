@@ -1,0 +1,398 @@
+@font-face {
+  font-family: "NotoBold";
+  src: url("../fonts/notosans-bold-webfont.eot");
+  src: url("../fonts/notosans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-bold-webfont.woff2") format("woff2"), url("../fonts/notosans-bold-webfont.woff") format("woff"), url("../fonts/notosans-bold-webfont.ttf") format("truetype"), url("../fonts/notosans-bold-webfont.svg#noto_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoItalic";
+  src: url("../fonts/notosans-italic-webfont.eot");
+  src: url("../fonts/notosans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-italic-webfont.woff2") format("woff2"), url("../fonts/notosans-italic-webfont.woff") format("woff"), url("../fonts/notosans-italic-webfont.ttf") format("truetype"), url("../fonts/notosans-italic-webfont.svg#noto_sansitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoRegular";
+  src: url("../fonts/notosans-regular-webfont.eot");
+  src: url("../fonts/notosans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-regular-webfont.woff2") format("woff2"), url("../fonts/notosans-regular-webfont.woff") format("woff"), url("../fonts/notosans-regular-webfont.ttf") format("truetype"), url("../fonts/notosans-regular-webfont.svg#noto_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoLight";
+  src: url("../fonts/notosans-light-webfont.woff2") format("woff2"), url("../fonts/notosans-light-webfont.woff") format("woff"), url("../fonts/notosans-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background: rgba(53, 63, 70, 0.7);
+  padding: 2em 0;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-logo {
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.876em;
+  font-family: NotoBold;
+}
+
+.nav-e-logo {
+  color: #4bcaff;
+}
+
+.nav-list {
+  padding: 0;
+  text-align: right;
+  float: right;
+}
+
+.nav-item {
+  font-family: NotoBold;
+  font-size: 0.875em;
+  list-style: none;
+  float: left;
+  padding: 0 0 0 1em;
+  border: 2em;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+  padding: 0.3em 0.8em;
+}
+
+.nav-link:hover {
+  color: #4bcaff;
+  padding: 0.2em 0.7em;
+  border: 0.1em solid #4bcaff;
+}
+
+.header-section {
+  background: url(../imgs/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 15em 0;
+}
+
+.header-tittle {
+  font-family: NotoLight;
+  color: #fff;
+  font-size: 2.626em;
+  text-transform: uppercase;
+  background: rgba(53, 63, 70, 0.7);
+  width: auto;
+}
+
+.services-section {
+  background: #4bcaff;
+  color: #fff;
+  padding: 3em 0;
+}
+
+.services-tittle {
+  margin: 0;
+  font-family: NotoLight;
+  font-size: 1.876em;
+  text-align: left;
+  color: #fff;
+}
+
+.icon-services {
+  display: block;
+  padding: 1em 0;
+  margin: 0;
+}
+
+.services-subtittle {
+  padding: 0;
+  margin: 0;
+  font-family: NotoRegular;
+  font-size: 1.5em;
+  text-align: left;
+  color: #fff;
+}
+
+.left-line-white {
+  border-bottom: 0.1em solid #fff;
+}
+
+.text-services {
+  font-family: NotoRegular;
+  color: #fff;
+  text-align: left;
+  font-size: 0.75em;
+}
+
+.portfolio-section {
+  background: #fff;
+  padding: 3em 0;
+}
+
+.portfolio-tittle {
+  margin: 0;
+  font-family: NotoLight;
+  font-size: 1.876em;
+  text-align: left;
+  color: #353f46;
+}
+
+.left-line-black {
+  border-bottom: 0.1em solid #353f46;
+}
+
+.portfolio-list {
+  padding: 0;
+  text-align: right;
+  float: right;
+}
+
+.portfolio-item {
+  font-family: NotoBold;
+  font-size: 0.875em;
+  list-style: none;
+  float: left;
+  padding: 0 0 0 1em;
+  border: 2em;
+}
+
+.portfolio-link {
+  color: #353f46;
+  text-decoration: none;
+  margin: 0;
+  padding: 0.3em 0.8em;
+}
+
+.portfolio-link:hover {
+  color: #4bcaff;
+  padding: 0.2em 0.7em;
+  border: 0.1em solid #4bcaff;
+}
+
+.portfolio-img {
+  width: 100%;
+  height: auto;
+  padding: 1em 0;
+}
+
+.default-section {
+  background: #353f46;
+  color: #fff;
+  padding: 3em 0;
+}
+
+.default-tittle {
+  margin: 0;
+  font-family: NotoLight;
+  font-size: 1.876em;
+  text-align: left;
+  color: #fff;
+}
+
+.text-default {
+  margin: 0;
+  padding: 2em 0 0.5em;
+  font-family: NotoRegular;
+  color: #fff;
+  text-align: left;
+  font-size: 0.875em;
+}
+
+.visit-me-btn {
+  margin: 1em 0;
+  padding: 1em 3em;
+  font-family: NotoBold;
+  color: #06090b;
+  font-size: 0.875em;
+  float: left;
+  text-decoration: none;
+  border: 0.2em solid #06090b;
+}
+
+.visit-me-btn:hover {
+  color: #4bcaff;
+  border: 0.2em solid #4bcaff;
+}
+
+.video {
+  width: auto;
+  height: 100%;
+}
+
+.twitter-section {
+  background: #4bcaff;
+  color: #fff;
+  padding: 3em 0;
+}
+
+.twitter-tittle {
+  margin: 0;
+  font-family: NotoLight;
+  font-size: 1.876em;
+  text-align: left;
+  color: #fff;
+}
+
+.text-twitter {
+  margin: 0;
+  padding: 2em 0 0.5em;
+  font-family: NotoLight;
+  color: #fff;
+  text-align: left;
+  font-size: 1.75em;
+}
+
+.twitter-bold {
+  font-family: NotoRegular;
+}
+
+.who-section {
+  background: url(../imgs/camera.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5em 0;
+}
+
+.who-tittle {
+  margin: 0;
+  font-family: NotoLight;
+  font-size: 1.876em;
+  text-align: left;
+  color: #fff;
+}
+
+.text-who {
+  margin: 0;
+  padding: 2em 0 0.5em;
+  font-family: NotoRegular;
+  color: #fff;
+  text-align: left;
+  font-size: 0.875em;
+}
+
+.redes-btn {
+  border: 0.1em solid #fff;
+  padding: 1em;
+  margin: 0.5em;
+  float: left;
+}
+
+.redes-btn:hover {
+  border: 0.1em solid #4bcaff;
+}
+
+.testimonials-section {
+  background: #fff;
+  padding: 3em 0;
+}
+
+.testimonials-tittle {
+  margin: 0;
+  font-family: NotoLight;
+  font-size: 1.876em;
+  text-align: left;
+  color: #353f46;
+}
+
+.text-testimonials {
+  margin: 0;
+  padding: 2em 0 0.5em;
+  font-family: NotoLight;
+  color: #353f46;
+  text-align: left;
+  font-size: 1.75em;
+}
+
+.testimonials-name {
+  color: #4bcaff;
+  font-size: 0.875em;
+  font-family: NotoBold;
+  float: left;
+  padding: 1em 0;
+}
+
+.contact-section {
+  background: url(../imgs/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3em 0;
+}
+
+.contact-tittle {
+  margin: 0;
+  font-family: NotoLight;
+  font-size: 1.876em;
+  text-align: left;
+  color: #fff;
+}
+
+.contact-attributes {
+  margin: 0;
+  padding: 2em 0 0.5em;
+  font-family: NotoBold;
+  color: #fff;
+  text-align: left;
+  font-size: 0.875em;
+}
+
+.contact-input {
+  font-family: NotoRegular;
+  color: #fff;
+  background: none;
+  float: left;
+  border: 0.2em solid #fff;
+  width: 100%;
+  font-size: 1.2em;
+  padding: 0.2em;
+}
+
+.contact-text {
+  font-family: NotoRegular;
+  color: #fff;
+  text-align: left;
+  font-size: 0.875em;
+  margin: 0;
+}
+
+.contact-submit {
+  margin: 1em 0;
+  font-family: NotoBold;
+  color: #fff;
+  background: #4bcaff;
+  float: left;
+  border: none;
+  width: 100%;
+  font-size: 0.875em;
+  padding: 0.5em;
+}
+
+.footer-section {
+  background: #353f46;
+  padding: 3em 0;
+  color: #fff;
+  font-size: 0.75em;
+}
+
+.footer-options {
+  text-align: left;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-link:hover {
+  color: #4bcaff;
+}
