@@ -33,7 +33,7 @@ body {
 
 .nav {
   background: rgba(53, 63, 70, 0.7);
-  padding: 2em 0;
+  padding: 2em 15%;
   position: fixed;
   width: 100%;
 }
@@ -44,6 +44,14 @@ body {
   text-transform: uppercase;
   font-size: 1.876em;
   font-family: NotoBold;
+}
+
+.nav-logo-link {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-logo-link:hover {
+  color: #fff;
 }
 
 .nav-e-logo {
@@ -71,7 +79,6 @@ body {
   margin: 0;
   padding: 0.3em 0.8em;
 }
-
 .nav-link:hover {
   color: #4bcaff;
   padding: 0.2em 0.7em;
@@ -83,7 +90,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  padding: 15em 0;
+  padding: 15em 15%;
 }
 
 .header-tittle {
@@ -91,14 +98,23 @@ body {
   color: #fff;
   font-size: 2.626em;
   text-transform: uppercase;
-  background: rgba(53, 63, 70, 0.7);
   width: auto;
+  line-height: 1.7em;
+}
+@media only screen and (max-width: 480px) {
+  .header-tittle {
+    font-size: 2em;
+  }
+}
+
+.header-tittle-bg {
+  background: rgba(53, 63, 70, 0.7);
 }
 
 .services-section {
   background: #4bcaff;
   color: #fff;
-  padding: 3em 0;
+  padding: 3em 15%;
 }
 
 .services-tittle {
@@ -107,6 +123,13 @@ body {
   font-size: 1.876em;
   text-align: left;
   color: #fff;
+}
+.services-tittle::after {
+  content: "";
+  display: block;
+  width: 1.5em;
+  padding-top: 0.1em;
+  border-bottom: 3px solid #fff;
 }
 
 .icon-services {
@@ -124,10 +147,6 @@ body {
   color: #fff;
 }
 
-.left-line-white {
-  border-bottom: 0.1em solid #fff;
-}
-
 .text-services {
   font-family: NotoRegular;
   color: #fff;
@@ -137,7 +156,7 @@ body {
 
 .portfolio-section {
   background: #fff;
-  padding: 3em 0;
+  padding: 3em 15%;
 }
 
 .portfolio-tittle {
@@ -147,9 +166,12 @@ body {
   text-align: left;
   color: #353f46;
 }
-
-.left-line-black {
-  border-bottom: 0.1em solid #353f46;
+.portfolio-tittle::after {
+  content: "";
+  display: block;
+  width: 1.5em;
+  padding-top: 0.1em;
+  border-bottom: 3px solid #353f46;
 }
 
 .portfolio-list {
@@ -173,7 +195,6 @@ body {
   margin: 0;
   padding: 0.3em 0.8em;
 }
-
 .portfolio-link:hover {
   color: #4bcaff;
   padding: 0.2em 0.7em;
@@ -189,7 +210,7 @@ body {
 .default-section {
   background: #353f46;
   color: #fff;
-  padding: 3em 0;
+  padding: 3em 15%;
 }
 
 .default-tittle {
@@ -198,6 +219,13 @@ body {
   font-size: 1.876em;
   text-align: left;
   color: #fff;
+}
+.default-tittle::after {
+  content: "";
+  display: block;
+  width: 1.5em;
+  padding-top: 0.1em;
+  border-bottom: 3px solid #fff;
 }
 
 .text-default {
@@ -219,7 +247,6 @@ body {
   text-decoration: none;
   border: 0.2em solid #06090b;
 }
-
 .visit-me-btn:hover {
   color: #4bcaff;
   border: 0.2em solid #4bcaff;
@@ -233,7 +260,7 @@ body {
 .twitter-section {
   background: #4bcaff;
   color: #fff;
-  padding: 3em 0;
+  padding: 3em 15%;
 }
 
 .twitter-tittle {
@@ -242,6 +269,17 @@ body {
   font-size: 1.876em;
   text-align: left;
   color: #fff;
+}
+.twitter-tittle::after {
+  content: "";
+  display: block;
+  width: 1.5em;
+  padding-top: 0.1em;
+  border-bottom: 3px solid #fff;
+}
+
+.twitter-icon {
+  float: right;
 }
 
 .text-twitter {
@@ -261,7 +299,7 @@ body {
   background: url(../imgs/camera.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 5em 0;
+  padding: 5em 15%;
 }
 
 .who-tittle {
@@ -270,6 +308,13 @@ body {
   font-size: 1.876em;
   text-align: left;
   color: #fff;
+}
+.who-tittle::after {
+  content: "";
+  display: block;
+  width: 1.5em;
+  padding-top: 0.1em;
+  border-bottom: 3px solid #fff;
 }
 
 .text-who {
@@ -287,14 +332,13 @@ body {
   margin: 0.5em;
   float: left;
 }
-
 .redes-btn:hover {
   border: 0.1em solid #4bcaff;
 }
 
 .testimonials-section {
   background: #fff;
-  padding: 3em 0;
+  padding: 3em 15%;
 }
 
 .testimonials-tittle {
@@ -303,6 +347,13 @@ body {
   font-size: 1.876em;
   text-align: left;
   color: #353f46;
+}
+.testimonials-tittle::after {
+  content: "";
+  display: block;
+  width: 1.5em;
+  padding-top: 0.1em;
+  border-bottom: 3px solid #353f46;
 }
 
 .text-testimonials {
@@ -326,7 +377,7 @@ body {
   background: url(../imgs/contact.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 3em 0;
+  padding: 3em 15%;
 }
 
 .contact-tittle {
@@ -335,6 +386,13 @@ body {
   font-size: 1.876em;
   text-align: left;
   color: #fff;
+}
+.contact-tittle::after {
+  content: "";
+  display: block;
+  width: 1.5em;
+  padding-top: 0.1em;
+  border-bottom: 3px solid #fff;
 }
 
 .contact-attributes {
@@ -379,7 +437,7 @@ body {
 
 .footer-section {
   background: #353f46;
-  padding: 3em 0;
+  padding: 3em 15%;
   color: #fff;
   font-size: 0.75em;
 }
@@ -392,7 +450,10 @@ body {
   text-decoration: none;
   color: #fff;
 }
-
 .footer-link:hover {
   color: #4bcaff;
+}
+
+.footer-year {
+  text-align: right;
 }
