@@ -63,6 +63,12 @@ body {
   text-align: right;
   float: right;
 }
+@media only screen and (max-width: 480px) {
+  .nav-list {
+    float: none;
+    text-align: left;
+  }
+}
 
 .nav-item {
   font-family: NotoBold;
@@ -72,12 +78,24 @@ body {
   padding: 0 0 0 1em;
   border: 2em;
 }
+@media only screen and (max-width: 480px) {
+  .nav-item {
+    float: none;
+    text-align: left;
+    padding: 0;
+  }
+}
 
 .nav-link {
   color: #fff;
   text-decoration: none;
   margin: 0;
   padding: 0.3em 0.8em;
+}
+@media only screen and (max-width: 480px) {
+  .nav-link {
+    padding: 0.3em 0;
+  }
 }
 .nav-link:hover {
   color: #4bcaff;
@@ -179,6 +197,12 @@ body {
   text-align: right;
   float: right;
 }
+@media only screen and (max-width: 480px) {
+  .portfolio-list {
+    float: none;
+    text-align: left;
+  }
+}
 
 .portfolio-item {
   font-family: NotoBold;
@@ -188,12 +212,24 @@ body {
   padding: 0 0 0 1em;
   border: 2em;
 }
+@media only screen and (max-width: 480px) {
+  .portfolio-item {
+    float: none;
+    text-align: left;
+    padding: 0;
+  }
+}
 
 .portfolio-link {
   color: #353f46;
   text-decoration: none;
   margin: 0;
   padding: 0.3em 0.8em;
+}
+@media only screen and (max-width: 480px) {
+  .portfolio-link {
+    padding: 0.3em 0;
+  }
 }
 .portfolio-link:hover {
   color: #4bcaff;
