@@ -1,5 +1,10 @@
+<?php
+
+?>
+
 <!doctype html>
 <html lang="en">
+<main>
 
 <head>
     <meta charset="utf-8">
@@ -35,7 +40,7 @@
         <!-- NAV -->
 
         <!-- HEADER -->
-        <header>
+        <header aria-label="Header">
             <div class="row header-section">
                 <div class="col-sm">
                     <h1 class="header-tittle">
@@ -109,7 +114,7 @@
             </div>
 
             <div class="col-sm-6"><iframe src="https://player.vimeo.com/video/11893491" width="100%" height="100%"
-                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe></div>
+                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" aria-label="Vimeo video"></iframe></div>
         </div>
         <!-- DEFAULT SECTION -->
 
@@ -162,7 +167,7 @@
             <div class="col-sm-12 contact-tittle">CONTACT</div>
             <div class="col-sm-6">
                 <p class="contact-attributes">NAME</p>
-                <input class="contact-input" type="text" name="Name" id="name">
+                <input class="contact-input" type="text" name="Name" id="name" placeholder="Name">
             </div>
             <div class="col-sm-6">
                 <p class="contact-text">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice
@@ -170,7 +175,7 @@
             </div>
             <div class="col-sm-6">
                 <p class="contact-attributes">EMAIL</p>
-                <input class="contact-input" type="email" name="Email" id="email">
+                <input class="contact-input" type="email" name="Email" id="email"  placeholder="Email">
             </div>
             <div class="col-sm-6">
                 <p class="contact-text">Linda Newman</p>
@@ -180,7 +185,7 @@
             </div>
             <div class="col-sm-12">
                 <p class="contact-attributes">MESSAGE</p>
-                <textarea class="contact-input" name="Message" id="message" cols="30" rows="10"></textarea>
+                <textarea class="contact-input" name="Message" id="message" cols="30" rows="10"  placeholder="Message"></textarea>
             </div>
             <div class="col-sm-4">
                 <input class="contact-submit" type="submit" value="MESSAGE">
@@ -202,6 +207,8 @@
 
 
     </div>
+
+    </main>
 
 </body>
 
