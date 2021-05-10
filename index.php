@@ -22,10 +22,13 @@
     <div class="container-fluid">
         <!-- NAV -->
         <nav>
-            <div class="row nav">
-                <div class="col-sm-3 nav-logo"><a class="nav-logo-link" href="#">Blu<span
-                            class="nav-e-logo">E</span>asy</a></div>
-                <div class="col-sm-9">
+            <div class="row nav">                
+                <div>
+                    <a class="nav-logo nav-logo-link" href="#">Blu<span class="nav-e-logo">E</span>asy</a>
+                    <input type="checkbox" id="menu">
+                        <label class="mobile-menu" for="menu">
+                        <img src="./imgs/svg/bars.svg" alt="menu bar">
+                    </label>
                     <ul class="nav-list">
                         <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
                         <li class="nav-item"><a href="#services" class="nav-link">SERVICES</a></li>
