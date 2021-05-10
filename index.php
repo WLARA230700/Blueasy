@@ -81,7 +81,7 @@
 
         <!-- PORTFOLIO -->
         <div class="row portfolio-section" id="portfolio">
-            <div class="col-sm-5 portfolio-tittle">PORTFOLIO</div>
+            <div class="col-sm-5 portfolio-tittle"><h2>PORTFOLIO</h2></div>
             <div class="col-sm-7">
                 <ul class="portfolio-list">
                     <li class="portfolio-item"><a href="#" class="portfolio-link">ALL</a></li>
@@ -105,7 +105,7 @@
         <!-- DEFAULT SECTION -->
         <div class="row default-section">
             <div class="col-sm-6">
-                <div class="default-tittle">JUST DEFAULT SECTION</div>
+                <div class="default-tittle"><h2>JUST DEFAULT SECTION</h2></div>
                 <p class="text-default">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice
                     bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
                 <p class="text-default">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice
@@ -120,7 +120,7 @@
 
         <!-- TWITTER -->
         <div class="row twitter-section">
-            <div class="col-sm-9 twitter-tittle">TWITTER</div>
+            <div class="col-sm-9 twitter-tittle"><h2>TWITTER</h2></div>
             <div class="col-sm-3"><img class="twitter-icon" src="./imgs/twitter.png" alt="Twitter icon"></div>
             <div class="col-sm-12">
                 <p class="text-twitter">Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate
@@ -132,7 +132,7 @@
         <!-- WHO IS? -->
         <div class="row who-section">
             <div class="col-sm-6">
-                <div class="who-tittle">WHO IS JOHN DOE?</div>
+                <div class="who-tittle"><h2>WHO IS JOHN DOE?</h2></div>
                 <p class="text-who">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear
                     claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
                 <p class="text-who">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear
@@ -151,7 +151,7 @@
 
         <!-- TESTIMONIALS -->
         <div class="row testimonials-section">
-            <div class="col-9 testimonials-tittle">TESTIMONIALS</div>
+            <div class="col-9 testimonials-tittle"><h2>TESTIMONIALS</h2></div>
             <div class="col-3"><img src="./imgs/twitter.png" alt="Testimonials_icon"></div>
             <div class="col-12">
                 <p class="text-testimonials">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll
@@ -164,9 +164,9 @@
 
         <!-- CONTACT -->
         <div class="row contact-section" id="contact">
-            <div class="col-sm-12 contact-tittle">CONTACT</div>
+            <div class="col-sm-12 contact-tittle"><h2>CONTACT</h2></div>
             <div class="col-sm-6">
-                <label class="contact-attributes">NAME</label>
+                <label for="name" class="contact-attributes">NAME</label>
                 <input class="contact-input" type="text" name="Name" id="name" placeholder="Name">
             </div>
             <div class="col-sm-6">
@@ -174,7 +174,7 @@
                     bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
             </div>
             <div class="col-sm-6">
-                <label class="contact-attributes">EMAIL</label>
+                <label for="email" class="contact-attributes">EMAIL</label>
                 <input class="contact-input" type="email" name="Email" id="email"  placeholder="Email">
             </div>
             <div class="col-sm-6">
@@ -184,7 +184,7 @@
                 <p class="contact-text">(715) 946 - 1234</p>
             </div>
             <div class="col-sm-12">
-                <label class="contact-attributes">MESSAGE</label>
+                <label for="message" class="contact-attributes">MESSAGE</label>
                 <textarea class="contact-input" name="Message" id="message" cols="30" rows="10"  placeholder="Message"></textarea>
             </div>
             <div class="col-sm-4">
