@@ -437,6 +437,7 @@ body {
   font-family: NotoBold;
   color: #fff;
   text-align: left;
+  float: left;
   font-size: 0.875em;
 }
 
